@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Convite • Gabryelle</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ==================== TELA DE ABERTURA ==================== -->
+
+    <section id="abertura" class="abertura">
+
+        <img src="gojo.png" alt="Satoru Gojo" class="gojo">
+
+        <div class="conteudo-abertura">
+
+            <div class="simbolo">∞</div>
+
+            <p class="japones">五条悟</p>
+
+            <h1>
+                VOCÊ RECEBEU<br>
+                UM CONVITE
+            </h1>
+
+            <div class="linha"></div>
+
+            <p class="subtitulo">
+                Uma celebração especial<br>
+                está prestes a começar...
+            </p>
+
+            <button id="abrirBtn">
+                ABRIR CONVITE
+                <span>→</span>
+            </button>
+
+            <p class="assinatura">
+                Gabryelle Mainieri
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==================== CONVITE ==================== -->
+
+    <section id="convite" class="convite">
+
+        <!-- GOJO DA SEGUNDA TELA -->
+        <img src="gojo2.png" alt="Satoru Gojo" class="gojo-convite">
+
+
+        <div class="conteudo-convite">
+
+            <p class="pequeno">
+                VOCÊ ESTÁ CONVIDADO(A) PARA
+            </p>
+
+            <h2>
+                O ANIVERSÁRIO
+            </h2>
+
+            <div class="infinito">∞</div>
+
+            <h3>
+                GABRYELLE
+            </h3>
+
+            <p class="idade">
+                18 ANOS
+            </p>
+
+            <p class="mensagem">
+                Venha comemorar comigo esse momento
+                tão especial! 💙
+            </p>
+
+
+            <!-- ==================== INFORMAÇÕES ==================== -->
+
+            <div class="informacoes">
+
+                <div class="informacao">
+
+                    <span class="icone">📅</span>
+
+                    <div>
+                        <strong>DATA</strong>
+                        <p>26 de setembro</p>
+                    </div>
+
+                </div>
+
+
+                <div class="informacao">
+
+                    <span class="icone">🕐</span>
+
+                    <div>
+                        <strong>HORÁRIO</strong>
+                        <p>19:00</p>
+                    </div>
+
+                </div>
+
+
+                <div class="informacao">
+
+                    <span class="icone">📍</span>
+
+                    <div>
+                        <strong>LOCAL</strong>
+                        <p>Local da festa</p>
+                        <small>Rua Leopoldo Becker 201</small>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- ==================== BOTÕES PRINCIPAIS ==================== -->
+
+            <div class="botoes">
+
+                <a
+                    href="https://www.google.com.br/maps/place/R.+Leopoldo+Becker,+201+-+Parque+das+Hortensias,+Canela+-+RS,+95680-000/@-29.3710164,-50.8302081,17z/data=!3m1!4b1!4m6!3m5!1s0x95192d9386df98f7:0x972275f6176bffbb!8m2!3d-29.3710164!4d-50.8302081!16s%2Fg%2F11s8d2qsh8?entry=ttu&g_ep=EgoyMDI2MDkwNi4wIKXMDSoASAFQAw%3D%3D"
+                    target="_blank"
+                    class="botao-secundario"
+                >
+                    📍 COMO CHEGAR
+                </a>
+
+
+                <button
+                    class="botao-principal"
+                    id="confirmarBtn"
+                >
+                    💌 CONFIRMAR PRESENÇA
+                </button>
+
+            </div>
+
+
+            <!-- ==================== PLAYLIST ==================== -->
+
+            <div class="playlist">
+
+                <a
+                    href="https://open.spotify.com/playlist/41fxAkxNuLPncqt01C2QqB?si=2c0b2aa46ffb4d1c&pt=ac53504ae4e634e16f09c9d052b07517"
+                    target="_blank"
+                    class="botao-secundario"
+                >
+                    🎵 ADICIONAR MÚSICA
+                </a>
+
+            </div>
+
+
+            <!-- ==================== CONFIRMADOS ==================== -->
+
+            <div id="listaConfirmados">
+
+                <h4>
+                    CONFIRMADOS
+                </h4>
+
+                <p id="contadorConfirmados">
+                    Carregando...
+                </p>
+
+                <ol id="nomesConfirmados"></ol>
+
+            </div>
+
+
+            <!-- ==================== FRASE ==================== -->
+
+            <div class="gojo-frase">
+
+                <p>
+                    “Não se preocupe, eu sou o mais forte.”
+                </p>
+
+                <span>
+                    — Satoru Gojo
+                </span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==================== JAVASCRIPT ==================== -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
